@@ -1,7 +1,7 @@
 # Topic 4 - Basic Keylogger: Detection, Execution & Defense
 
 This repository contains the final demonstration code for Topic 4 of the
-Introduction to Information Security course (Group G11, Ton Duc Thang
+Introduction to Information Security course (Group 11, Ton Duc Thang
 University). It accompanies our theory report and turns that theory into a
 working attack-and-defense demonstration, carried out in an isolated
 environment using only self-generated test data.
